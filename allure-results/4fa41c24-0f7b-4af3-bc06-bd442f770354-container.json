@@ -1,0 +1,1 @@
+{"uuid":"4fa41c24-0f7b-4af3-bc06-bd442f770354","name":"REST API Automation Framework","children":["5459f8b0-df79-451a-9cba-83e498d05240"],"befores":[{"name":"setUp","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1783687841744,"stop":1783687841754}],"afters":[],"start":1783687841720,"stop":1783687846473}

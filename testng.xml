@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="REST API Automation Framework" verbose="1">
+
+    <test name="User API Tests">
+        <classes>
+            <class name="com.api.automation.tests.GetUserTest"/>
+            <class name="com.api.automation.tests.CreateUserTest"/>
+        </classes>
+    </test>
+
+</suite>

@@ -1,0 +1,44 @@
+2026-07-10 18:20:41 [INFO ] org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\gn777\IdeaProjects\rest-api-automation-framework\testng.xml
+
+2026-07-10 18:20:41 [INFO ] com.api.automation.base.BaseTest - ========== API TEST SUITE STARTING ==========
+2026-07-10 18:20:41 [INFO ] c.a.automation.config.ConfigManager - Configuration loaded from: config.properties
+2026-07-10 18:20:41 [INFO ] com.api.automation.base.BaseTest - Base URL: https://reqres.in/api
+2026-07-10 18:20:42 [INFO ] com.api.automation.client.ApiClient - API Client initialised: https://reqres.in/api
+2026-07-10 18:20:42 [INFO ] com.api.automation.client.ApiClient - GET /users/999
+2026-07-10 18:20:44 [INFO ] com.api.automation.client.ApiClient - GET /users/2
+2026-07-10 18:20:44 [INFO ] com.api.automation.client.ApiClient - GET /users?page=1
+2026-07-10 18:20:45 [INFO ] com.api.automation.client.ApiClient - POST /users
+2026-07-10 18:20:45 [INFO ] com.api.automation.client.ApiClient - PUT /users/2
+2026-07-10 18:25:33 [INFO ] org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\gn777\IdeaProjects\rest-api-automation-framework\testng.xml
+
+2026-07-10 18:25:33 [INFO ] com.api.automation.base.BaseTest - ========== API TEST SUITE STARTING ==========
+2026-07-10 18:25:33 [INFO ] c.a.automation.config.ConfigManager - Configuration loaded from: config.properties
+2026-07-10 18:25:33 [INFO ] com.api.automation.base.BaseTest - Base URL: https://reqres.in/api
+2026-07-10 18:25:34 [INFO ] com.api.automation.client.ApiClient - API Client initialised: https://reqres.in/api
+2026-07-10 18:25:34 [INFO ] com.api.automation.client.ApiClient - GET /users/999
+2026-07-10 18:25:38 [INFO ] com.api.automation.client.ApiClient - GET /users/2
+2026-07-10 18:25:39 [INFO ] c.api.automation.tests.GetUserTest - Retrieved user: User{id=2, name='null', job='null', email='janet.weaver@reqres.in'}
+2026-07-10 18:25:39 [INFO ] com.api.automation.client.ApiClient - GET /users?page=1
+2026-07-10 18:25:40 [INFO ] c.api.automation.tests.GetUserTest - Total users: 12
+2026-07-10 18:25:40 [INFO ] com.api.automation.client.ApiClient - POST /users
+2026-07-10 18:25:40 [INFO ] c.a.automation.tests.CreateUserTest - Created user: User{id=40, name='Gaurav', job='Senior SDET', email='null'}
+2026-07-10 18:25:40 [INFO ] com.api.automation.client.ApiClient - PUT /users/2
+2026-07-10 18:25:41 [INFO ] c.a.automation.tests.CreateUserTest - Updated user: User{id=0, name='Gaurav Updated', job='Principal SDET', email='null'}
+2026-07-10 18:29:34 [INFO ] org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\gn777\IdeaProjects\rest-api-automation-framework\testng.xml
+
+2026-07-10 18:29:34 [INFO ] com.api.automation.base.BaseTest - ========== API TEST SUITE STARTING ==========
+2026-07-10 18:29:34 [INFO ] c.a.automation.config.ConfigManager - Configuration loaded from: config.properties
+2026-07-10 18:29:34 [INFO ] com.api.automation.base.BaseTest - Base URL: https://reqres.in/api
+2026-07-10 18:29:34 [INFO ] com.api.automation.client.ApiClient - API Client initialised: https://reqres.in/api
+2026-07-10 18:29:34 [INFO ] com.api.automation.client.ApiClient - GET /users/999
+2026-07-10 18:29:36 [INFO ] com.api.automation.client.ApiClient - GET /users/2
+2026-07-10 18:29:38 [INFO ] c.api.automation.tests.GetUserTest - Retrieved user: User{id=2, name='null', job='null', email='janet.weaver@reqres.in'}
+2026-07-10 18:29:38 [INFO ] com.api.automation.client.ApiClient - GET /users?page=1
+2026-07-10 18:29:38 [INFO ] c.api.automation.tests.GetUserTest - Total users: 12
+2026-07-10 18:29:38 [INFO ] com.api.automation.client.ApiClient - POST /users
+2026-07-10 18:29:39 [INFO ] c.a.automation.tests.CreateUserTest - Created user: User{id=308, name='Gaurav', job='Senior SDET', email='null'}
+2026-07-10 18:29:39 [INFO ] com.api.automation.client.ApiClient - PUT /users/2
+2026-07-10 18:29:39 [INFO ] c.a.automation.tests.CreateUserTest - Updated user: User{id=0, name='Gaurav Updated', job='Principal SDET', email='null'}
