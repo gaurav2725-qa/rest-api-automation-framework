@@ -3,6 +3,7 @@ package com.api.automation.tests;
 import com.api.automation.base.BaseTest;
 import com.api.automation.client.ApiClient;
 import com.api.automation.models.User;
+import com.api.automation.utils.SchemaValidator;
 import io.qameta.allure.Description;
 import io.qameta.allure.Feature;
 import io.qameta.allure.Severity;
@@ -65,6 +66,22 @@ public class GetUserTest extends BaseTest {
                 "Status code should be 404 for unknown user");
     }
 
+    @Test
+    @Story("Get Single User")
+    @Description("Verify GET /users/2 response matches JSON schema")
+    @Severity(SeverityLevel.CRITICAL)
+    public void testGetSingleUserSchema() {
+        Response response = ApiClient.get("/users/2");
+
+        Assert.assertEquals(response.statusCode(), 200,
+                "Status code should be 200");
+
+        SchemaValidator.validate(response, "user-schema.json");
+
+        logger.info("Schema validation passed for /users/2");
+    }
     private static final org.slf4j.Logger logger =
             org.slf4j.LoggerFactory.getLogger(GetUserTest.class);
+
+
 }
