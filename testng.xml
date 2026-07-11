@@ -9,4 +9,10 @@
         </classes>
     </test>
 
+    <test name="WireMock Tests">
+        <classes>
+            <class name="com.api.automation.wiremock.WireMockTest"/>
+        </classes>
+    </test>
+
 </suite>
